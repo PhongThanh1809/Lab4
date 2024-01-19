@@ -1,0 +1,86 @@
+.cl-black{
+    color: black  !important;
+    padding: 8px 20px !important;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-item:hover {
+    border-bottom: 0.3rem solid orange;
+    text-decoration: none;
+}
+
+
+.title{
+    text-align: center;
+    margin: 50px;
+    font-weight: bold;
+}
+
+/* card */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    width: 30%; 
+    margin-bottom: 20px;
+    border: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.card-image {
+    width: 100%;
+    height: auto;
+    
+  }
+  
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: darkgoldenrod;
+  }
+
+
+
+  /* footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: left;
+    padding: 20px;
+    position: relative;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.footer-icon {
+    display: flex;
+    
+    color: #fff;
+    margin-right: 10px; 
+}
+
+
+.social-icons {
+    display: flex;
+    align-items: center;
+}
+
+.social-icons a {
+    margin-right: 10px; /* Khoảng cách giữa các biểu tượng */
+}
+
+.img-ft{
+    margin-top: 20px;
+    width: 30%;
+}
+

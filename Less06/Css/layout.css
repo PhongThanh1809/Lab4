@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    color: #000088;
+}
+
+.d-flex{
+    display: flex;
+
+}
+
+
+/* header */
+
+.menu{
+    display: flex;
+}
+.main-menu{
+    display: flex;
+    width: 100%;
+    font-weight: bold;
+    margin-right: 250px;
+    margin-top: 65px;   
+}
